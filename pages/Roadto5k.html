@@ -5,58 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Runner 4 life</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body id="body-dos">
-
-    <header>
-        <img class="heartBeat" src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="HeartBeatIcon">
-          <h1>  Runner 4 life</h1>
-      
-        <nav class="navegador">
-            <ul id="lista">
-                <li class="page"> <a href="../index.html">Index</a></li>
-                <li class="page"> <a href="../pages/Roadto5k.html">Road to 5k</a></li>
-                <li class="page"> <a href="../pages/WorldMajors.html">World Majors</a></li>
-                <li class="page"> <a href="../pages/Articles.html">Articles</a></li>
-                <li class="page"> <a href="../pages/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<body class="bg-dark bg-gradient">
+    <header class="container">
+        <nav class="row navbar navbar-dark bg-dark" id="nav-dos">
+            <div class="col container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top" id="mini-logo-dos">
+                Runner 4 life</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="col nav-item">
+                    <a class="nav-link active h6" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="col nav-item">
+                    <a class="nav-link h6" href="../pages/Roadto5k.html">Road to 5k</a>
+                  </li>
+                  <li class="col nav-item">
+                    <a class="nav-link h6" href="../pages/WorldMajors.html">World Majors</a>
+                  </li>
+                  <li class="col nav-item dropdown">
+                    <a class="nav-link dropdown-toggle h6" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More info
+                    </a>
+                    <ul class="col dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/Articles.html">Articles</a></li>
+                      <li><a class="dropdown-item" href="../pages/Contacto.html">About us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div  class="row justify-content-around bg-dark">
+            <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" class="img-fluid w-25 h-auto" id="logo" alt="HeartBeatLogo">
+        </div>
+        <h1 class="row justify-content-around text-white bg-dark">Runner 4 life</h1>
+        
     </header>
 
     
-    <main>
-        <h2 class="titulo5k">Road to 5k</h2>
-         <img class="roadTo5" src="../assets/img/83e8c5e80589bc78cb57e6465921f16e.jpg" alt="5k_preparation">
-
-         <section class="seccionIframe">
-             <h1>The importance of hydration for runners</h1>
-             <iframe src="../assets/iframes/The Importance of Hydration for Runners.mp4" frameborder="0">The importance of hydration for runners</iframe>
-         </section>
-    
-         <section class="seccionIframeDos">
-             <h1>Nutrition for marathon runners</h1>
-             <iframe src="../assets/iframes/Nutrition For Marathon Runners.mp4" frameborder="0">Nutrition for marathon runners</iframe>
-         </section>
-  
-         <section class="seccionIframeTres">
-             <h1>How to run your first 5k</h1>
-             <iframe src="../assets/iframes/How To RUN Your First 5K _ Running Tips For Beginners.mp4" frameborder="0">How to run your first 5k</iframe>
-         </section>
-
+    <main class="container">
+        <div class="row justify-content-around">
+            <h2 class="row justify-content-around">Road to 5k</h2>
+            <img class="img-fluid w-50 h-auto" src="../assets/img/83e8c5e80589bc78cb57e6465921f16e.jpg" alt="5k_preparation">   
+        </div>
+        <div>
+            <div class="row">
+              <div class="col">
+                <h1 class="h3">The importance of hydration for runners</h1>
+                <iframe src="../assets/iframes/The Importance of Hydration for Runners.mp4" frameborder="0">The importance of hydration for runners</iframe>
+              </div>
+              <div class="col">
+                <h1 class="h3">Nutrition for marathon runners</h1>
+                <iframe src="../assets/iframes/Nutrition For Marathon Runners.mp4" frameborder="0">Nutrition for marathon runners</iframe>
+              </div>
+              <div class="col">
+                <h1 class="h3">How to run your first 5k in a nutshell</h1>
+                <iframe src="../assets/iframes/How To RUN Your First 5K _ Running Tips For Beginners.mp4" frameborder="0">How to run your first 5k</iframe>
+              </div>
+            </div>
+        </div>
     </main>
     
-    <footer>
-        <div class="divFooter">
-            <h2>Get in touch</h2>
-            <a href="runners4life@gmail.com">runners4life@gmail.com</a>
-        </div>
-        <div class="divFooter">
-            <h2>Connect</h2>
-            <p>Instagram: runners4life</p>
-            <p>Linkedin: Runners 4 life</p>
+    <footer class="container">
+        <div class="row justify-content-around">
+            <div class="col-3">
+                <h2 class="text-white">Get in touch</h2>
+                <a href="runners4life@gmail.com">runners4life@gmail.com</a>
+            </div>
+            <div class="col-2">
+                <h2 class="text-white">Connect</h2>
+                <p class="text-white">Instagram: runners4life</p>
+                <p class="text-white">Linkedin: Runners 4 life</p>
+            </div>
         </div>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"             integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
 </body>
 </html>

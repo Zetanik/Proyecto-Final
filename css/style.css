@@ -1,45 +1,137 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* #body{
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(73,74,74,1) 31%, rgba(138,140,140,1) 56%);
+} */
 
-body{
-    width: 70vw;
-    background-color: beige;
-}
-
-.heartBeat{
-    height: 7rem;
-    width: 10rem;
-    align-items: center;
-    justify-content: center;
-}
-
-header{
-    font-size: 3em;
-    font-weight: bold;
+#nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
     text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+a:hover,
+a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+
+#mini-logo{
+    transition: rotate 2s;
+  }
+
+#mini-logo:hover{
+    rotate: 360deg
+  }
+
+
+
+#logo{
+    animation: beat .5s infinite alternate;
+	transform-origin: center;
+  }
+
+  @keyframes beat{
+	to { transform: scale(1.05); }
+}
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+  }
+.portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+.portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+  }
+.portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+.portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+@media (min-width: 992px) {
+    .portfolio-item {
+      max-width: none;
+      margin: 0;
+    }
+    .portfolio-item .caption {
+      transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+      transition: clip-path 0.25s ease-out, background-color 0.7s;
+      transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(0px);
+              clip-path: inset(0px);
+    }
+    .portfolio-item .caption .caption-content {
+      transition: opacity 0.25s;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+      transition: -webkit-clip-path 0.25s ease-out;
+      transition: clip-path 0.25s ease-out;
+      transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(-1px);
+              clip-path: inset(-1px);
+    }
+    .portfolio-item:hover img {
+      -webkit-clip-path: inset(2rem);
+              clip-path: inset(2rem);
+    }
+    .portfolio-item:hover .caption {
+      background-color: rgba(63, 63, 63, 0.9);
+      -webkit-clip-path: inset(2rem);
+              clip-path: inset(2rem);
+    }
+  }
+
+#nav-dos {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+#mini-logo-dos{
+    transition: rotate 2s;
+  }
+
+#mini-logo-dos:hover{
+    rotate: 360deg
+  }
+
+.row .justify-content-around{
+    color: #fff;
     text-decoration: underline;
 }
 
-.navegador{
-    border-style: outset;
-    width: 8rem;
-    height: 6rem;
-    border-color: black;
-    text-align: center;
-    margin-top: 2em;
+.container .row .col .h3{
+    color: #fff;
 }
-
-.navegador ul{
-    font-size: 13px;
+/* main p{
     text-align: center;
-    justify-content: center;
-}
-
-main p{
-    /* text-align: center; */
     width: 50%;
     margin-left: 15em;
     font-size: 1.5em;
@@ -56,7 +148,7 @@ main img{
 body{
     height: 100vh;
     width: 95vw;
-    background-color: beige;
+    background-color: whitesmoke;
 }
 
 .divFooter{
@@ -79,7 +171,7 @@ body{
     margin-top: -5.5em;
 } */
 
-.titulo5k{
+/* .titulo5k{
     font-size: 4em;
     margin-left: 16rem;
     margin-top: -6rem;
@@ -115,7 +207,7 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: beige;
-}
+} */ 
 
 /* #navegador_tres{
     border-style: outset;
@@ -126,7 +218,7 @@ body{
     margin-top: -6em;
 } */
 
-.majors{
+/* .majors{
     text-align: center;
     font-size: 3em;
     margin-top: -8rem;
@@ -167,7 +259,7 @@ section img{
  #body-cuatro{
     height: 100vh;
     width: 90vw;
- }
+ } */
 
  /* #navegador-cuatro{
     border-style: outset;
@@ -180,7 +272,7 @@ section img{
     margin-bottom: 10em;
 } */
 
-.medical-symbol{
+/* .medical-symbol{
     height: 10rem;
     width: 10rem;
     margin-left: 3em;
@@ -246,4 +338,4 @@ section img{
     height: 100vh;
     width: 100vw;
     background-color: beige;
- }
+ } */
