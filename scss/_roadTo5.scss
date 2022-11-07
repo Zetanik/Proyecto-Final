@@ -1,0 +1,58 @@
+.row .justify-content-around{
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .container .row .col .h3{
+    color: #fff;
+  }
+  
+  #roadTo5{
+    padding: 3%;
+  }
+  
+  .weekTo5{
+    width: 9% ;
+    padding: 0;
+    align-items: center;
+  }
+  
+  th{
+    border: solid #fafafa;
+  }
+  
+  td{
+    width: 15% ;
+    border: solid #fafafa;
+    padding: 2%;
+  }
+  
+  .lowerSectionTo5{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 2%;
+  }
+
+  #video5k{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #eachVideo5k{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .h4To5k{
+    color: #fafafa;
+    padding: 2%;
+    margin-bottom: 2vw;
+  }

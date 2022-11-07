@@ -1,0 +1,39 @@
+body header #mobileNav {
+  display: none;
+  gap: 0.5rem;
+}
+body header #mobileNav #divUno a {
+  flex: 1;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+body header #mobileNav #divUno a:hover, body header #mobileNav #divUno a:focus {
+  background-color: #fff;
+  color: #333;
+}
+body header #mobileNav #divUno a #mini-logo {
+  transition: rotate 2s;
+}
+body header #mobileNav #divUno a #mini-logo:hover {
+  rotate: 360deg;
+}
+body header #logo {
+  -webkit-animation: beat 0.5s infinite alternate;
+          animation: beat 0.5s infinite alternate;
+  transform-origin: center;
+}
+@-webkit-keyframes beat {
+  to {
+    transform: scale(1.05);
+  }
+}
+@keyframes beat {
+  to {
+    transform: scale(1.05);
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -9,72 +9,165 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="bg-dark bg-gradient">
-    <header class="container">
-        <nav class="row navbar navbar-dark bg-dark" id="nav-dos">
-            <div class="col container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top" id="mini-logo-dos">
-                Runner 4 life</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="col nav-item">
-                    <a class="nav-link active h6" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="col nav-item">
-                    <a class="nav-link h6" href="../pages/Roadto5k.html">Road to 5k</a>
-                  </li>
-                  <li class="col nav-item">
-                    <a class="nav-link h6" href="../pages/WorldMajors.html">World Majors</a>
-                  </li>
-                  <li class="col nav-item dropdown">
-                    <a class="nav-link dropdown-toggle h6" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      More info
-                    </a>
-                    <ul class="col dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="../pages/Articles.html">Articles</a></li>
-                      <li><a class="dropdown-item" href="../pages/Contacto.html">About us</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <div  class="row justify-content-around bg-dark">
-            <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" class="img-fluid w-25 h-auto" id="logo" alt="HeartBeatLogo">
+  <header class="container" id="headerMobile">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand imagen text-white" href="../index.html">
+            <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="Icon" width="13%" id="mini-logo">
+            <span class="titulo">Runner 4 life</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item imagen">
+                <a class="nav-link active text-white" aria-current="page" href="./roadTo5k.html">Road to 5k</a>
+              </li>
+              <li class="nav-item imagen">
+                <a class="nav-link active text-white" aria-current="page" href="./worldMajors.html">World Majors</a>
+              </li>
+              <li class="nav-item imagen">
+                <a class="nav-link active text-white" aria-current="page" href="./articles.html">Articles</a>
+              </li>
+              <li class="nav-item imagen">
+                <a class="nav-link active text-white" aria-current="page" href="./contacto.html">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+              <button class="btn btn-danger btn-danger-outline-success" type="button">Suscribe</button>
+            </form>
+          </div>
         </div>
-        <h1 class="row justify-content-around text-white bg-dark">Runner 4 life</h1>
-        
-    </header>
+      </nav>
+    <div  class="row justify-content-around bg-dark">
+        <img src="../assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" class="img-fluid w-25 h-auto" id="logo" alt="HeartBeatLogo">
+    </div>
+    <h1 class="row justify-content-around text-white bg-dark">Runner 4 life</h1>
+    
+  </header>
 
     
     <main class="container">
-        <div class="row justify-content-around">
-            <h2 class="row justify-content-around">Road to 5k</h2>
-            <img class="img-fluid w-50 h-auto" src="../assets/img/83e8c5e80589bc78cb57e6465921f16e.jpg" alt="5k_preparation">   
+      <div class="row justify-content-around">
+          <h2 class="row justify-content-around p-2 text-white" id="roadTo5k">Road to 5k</h2>
+          <div style="overflow-x:auto;">
+            <table style="width:100%" class="table table-dark table-hover"> 
+              <tr>
+              <th class="weekTo5"></th>
+              <th>day 1</th>
+              <th>day 2</th>
+              <th>day 3</th>
+              <th>day 4</th>
+              <th>day 5</th>
+              <th>day 6</th>
+              <th>day 7</th>
+              </tr>
+              <tr>
+              <td class="weekTo5Data">week 1</td>
+              <td>1km walk</td>
+              <td>10 squats 10 calf raises</td>
+              <td>1km run</td>
+              <td>10 squats 10 calf raises</td>
+              <td>1km walk</td>
+              <td>10 squats 10 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 2</td>
+              <td>1km walk</td>
+              <td>20 squats 20 calf raises</td>
+              <td>1km run</td>
+              <td>20 squats 20 calf raises</td>
+              <td>1km walk</td>
+              <td>20 squats 20 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 3</td>
+              <td>2km walk</td>
+              <td>30 squats 30 calf raises</td>
+              <td>2km run</td>
+              <td>30 squats 30 calf raises</td>
+              <td>2km walk</td>
+              <td>30 squats 30 calf raises</td>
+              <td>rest</td>    
+              </tr>
+              <tr>
+              <td class="weekTo5">week 4</td>
+              <td>2km walk</td>
+              <td>2 sets/20 squats 2 sets/20 calf raises</td>
+              <td>2km run</td>
+              <td>2 sets/20 squats 2 sets/20 calf raises</td>
+              <td>2km walk</td>
+              <td>2 sets/20 squats 2 sets/20 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 5</td>
+              <td>1km run</td>
+              <td>2 sets/25 squats 3 sets/20 calf raises</td>
+              <td>1km run</td>
+              <td>2 sets/25 squats 3 sets/20 calf raises</td>
+              <td>1km run</td>
+              <td>2 sets/25 squats 3 sets/20 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 6</td>
+              <td>1km run</td>
+              <td>3 sets/20 squats 3 sets/20 calf raises</td>
+              <td>1km run</td>
+              <td>3 sets/20 squats 3 sets/20 calf raises</td>
+              <td>1km run</td>
+              <td>3 sets/20 squats 3 sets/20 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 7</td>
+              <td>3km run</td>
+              <td>2 sets/35 squats 4 sets/15 calf raises</td>
+              <td>3km run</td>
+              <td>2 sets/35 squats 4 sets/15 calf raises</td>
+              <td>3km run</td>
+              <td>2 sets/35 squats 4 sets/15 calf raises</td>
+              <td>rest</td>
+              </tr>
+              <tr>
+              <td class="weekTo5">week 8</td>
+              <td>3km run</td>
+              <td>4 sets/20 squats 4 sets/20 calf raises</td>
+              <td>rest</td>
+              <td>4km run</td>
+              <td>4 sets/20 squats 4 sets/20 calf raises</td>
+              <td>rest</td>
+              <td>5km run</td>
+              </tr>
+            </table>   
+          </div>
+      </div>
+        
+      <div class="lowerSectionTo5">
+        <div class="row" id="video5k">
+          <div class="col" id="eachVideo5k">
+            <h4 class="h4To5K text-white">The importance of hydration for runners</h4>
+              <iframe src="../assets/iframes/The Importance of Hydration for Runners.mp4" frameborder="0">The importance of hydration for runners</iframe>
+          </div>
+          <div class="col" id="eachVideo5k">
+            <h4 class="h4To5K text-white">Nutrition for marathon runners</h4>
+              <iframe src="../assets/iframes/Nutrition For Marathon Runners.mp4" frameborder="0">Nutrition for marathon runners</iframe>
+          </div>
+          <div class="col" id="eachVideo5k">
+            <h4 class="h4To5K text-white">How to run your first 5k in a nutshell</h4>
+              <iframe src="../assets/iframes/How To RUN Your First 5K _ Running Tips For Beginners.mp4" frameborder="0">How to run your first 5k</iframe>
+          </div>
         </div>
-        <div>
-            <div class="row">
-              <div class="col">
-                <h1 class="h3">The importance of hydration for runners</h1>
-                <iframe src="../assets/iframes/The Importance of Hydration for Runners.mp4" frameborder="0">The importance of hydration for runners</iframe>
-              </div>
-              <div class="col">
-                <h1 class="h3">Nutrition for marathon runners</h1>
-                <iframe src="../assets/iframes/Nutrition For Marathon Runners.mp4" frameborder="0">Nutrition for marathon runners</iframe>
-              </div>
-              <div class="col">
-                <h1 class="h3">How to run your first 5k in a nutshell</h1>
-                <iframe src="../assets/iframes/How To RUN Your First 5K _ Running Tips For Beginners.mp4" frameborder="0">How to run your first 5k</iframe>
-              </div>
-            </div>
-        </div>
+      </div>
     </main>
     
     <footer class="container">
-        <div class="row justify-content-around">
+        <div class="row justify-content-around" id="footer">
             <div class="col-3">
                 <h2 class="text-white">Get in touch</h2>
                 <a href="runners4life@gmail.com">runners4life@gmail.com</a>

@@ -9,37 +9,36 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="bg-dark bg-gradient" id="body"> 
-    <header class="container">
-        <nav class="row navbar navbar-dark bg-dark" id="nav">
-            <div class="col container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top" id="mini-logo">
-                Runner 4 life</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<body class="bg-dark bg-gradient"> 
+    <header class="container" id="headerMobile">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
+            <div class="container-fluid">
+              <a class="navbar-brand imagen text-white" href="./index.html">
+                <img src="./assets/img/Heart-beat-icon-Graphics-1-4-580x386.jpg" alt="Icon" width="13%" id="mini-logo">
+                <span class="titulo">Runner 4 life</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="col nav-item">
-                    <a class="nav-link active h6" aria-current="page" href="./index.html">Home</a>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item imagen">
+                    <a class="nav-link active text-white" aria-current="page" href="./pages/roadTo5k.html">Road to 5k</a>
                   </li>
-                  <li class="col nav-item">
-                    <a class="nav-link h6" href="./pages/Roadto5k.html">Road to 5k</a>
+                  <li class="nav-item imagen">
+                    <a class="nav-link active text-white" aria-current="page" href="./pages/worldMajors.html">World Majors</a>
                   </li>
-                  <li class="col nav-item">
-                    <a class="nav-link h6" href="./pages/WorldMajors.html">World Majors</a>
+                  <li class="nav-item imagen">
+                    <a class="nav-link active text-white" aria-current="page" href="./pages/articles.html">Articles</a>
                   </li>
-                  <li class="col nav-item dropdown">
-                    <a class="nav-link dropdown-toggle h6" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      More info
-                    </a>
-                    <ul class="col dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="./pages/Articles.html">Articles</a></li>
-                      <li><a class="dropdown-item" href="./pages/Contacto.html">About us</a></li>
-                    </ul>
+                  <li class="nav-item imagen">
+                    <a class="nav-link active text-white" aria-current="page" href="./pages/contacto.html">Contact us</a>
                   </li>
                 </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+                  <button class="btn btn-danger btn-danger-outline-success" type="button">Suscribe</button>
+                </form>
               </div>
             </div>
           </nav>
@@ -49,65 +48,65 @@
         <h1 class="row justify-content-around text-white bg-dark">Runner 4 life</h1>
         
     </header>
-
-    <main class="container">
-        <div class="row justify-content-around">
-            <p class="row lead text-light w-50">This is a site where we running freaks get toghether and learn a thing or two about this sport that we all love. Here you will find medical, nutritional and performing advice, given by the worlds greatest specialists.</p>
-    </main>
-
-    <section class="content-section">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-0">
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Meals and Snacks</div>
-                                <p class="mb-0">Easy and healthy recipes to improve your performance.</p>
+    <main>
+        <div class="container">
+            <div class="row justify-content-around">
+                <p class="row lead text-light w-50">This is a site where we running freaks get toghether and learn a thing or two about this sport that we all love. Here you will find medical, nutritional and performing advice, given by the worlds greatest specialists.</p>
+            </div>
+        </div> 
+        <section class="content-section">
+            <div class="container px-4 px-lg-5" id="port">
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://www.delicious.com.au/recipes/collections/gallery/60-healthy-dinners-you-can-cook-in-30-minutes/1vo4q819">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Meals and Snacks</div>
+                                    <p class="mb-0">Easy and healthy recipes to improve your performance.</p>
+                                </div>
                             </div>
-                        </div>
-                        <img class="img-fluid" src="./assets/img/healthy-leaves-mix-salad-2022-03-03-12-52-14-utc.jpg" alt="..." />
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Training</div>
-                                <p class="mb-0">Complete training sessions to get prepared for your next race!</p>
+                            <img class="img-fluid" src="./assets/img/healthy-leaves-mix-salad-2022-03-03-12-52-14-utc.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="./pages/roadTo5k.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Training</div>
+                                    <p class="mb-0">Complete training sessions to get prepared for your next race!</p>
+                                </div>
                             </div>
-                        </div>
-                        <img class="img-fluid" src="./assets/img/smiling-happy-elderly-seniors-couple-senior-couple-running-park-100278158.jpg" alt="..." />
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Races</div>
-                                <p class="mb-0">Some of the best races you can sign up to!</p>
+                            <img class="img-fluid" src="./assets/img/smiling-happy-elderly-seniors-couple-senior-couple-running-park-100278158.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="./pages/worldMajors.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Races</div>
+                                    <p class="mb-0">Some of the best races you can sign up to!</p>
+                                </div>
                             </div>
-                        </div>
-                        <img class="img-fluid" src="./assets/img/running.jpg" alt="..." />
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Health</div>
-                                <p class="mb-0">Articles written by experts on sports.</p>
+                            <img class="img-fluid" src="./assets/img/running.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="./pages/articles.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Health</div>
+                                    <p class="mb-0">Articles written by experts on sports.</p>
+                                </div>
                             </div>
-                        </div>
-                        <img class="img-fluid" src="./assets/img/sport-performance-centre-athlete.jpg" alt="..." />
-                    </a>
+                            <img class="img-fluid" src="./assets/img/sport-performance-centre-athlete.jpg" alt="..." />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>        
+    </main>
     <footer class="container">
-        <div class="row justify-content-around">
+        <div class="row justify-content-around" id="footer">
             <div class="col-3">
                 <h2 class="text-white">Get in touch</h2>
                 <a href="runners4life@gmail.com">runners4life@gmail.com</a>
